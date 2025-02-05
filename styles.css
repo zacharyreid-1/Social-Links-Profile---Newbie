@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+
+.main_section{
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    height: 575px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.image{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.user_image{
+    border-radius: 50%;
+}
+
+.user_name{
+    color: white;
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+.bio{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 14px;
+}
+
+.link_card{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.link_card_link:hover{
+    text-decoration: none;
+}
+
+.link_card:hover{
+    background-color: hsla(75, 94%, 57%, .5);
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
